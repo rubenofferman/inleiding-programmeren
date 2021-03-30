@@ -1,0 +1,88 @@
+body{
+    font-family:  Arial, Helvetica, sans-serif;
+    background-color: rgb(182, 230, 245);
+    transition: 0.5s;
+}
+
+.rozeAchtergrond{
+    background-color: rgb(255, 161, 208);
+}
+
+.rodeAchtergrond{
+    background-color: rgb(190, 30, 30);
+    color: black;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+background-color: white;
+border-radius: 1em;
+color: rgb(240, 167, 240);
+padding: 1em;
+width: 15em;
+text-align: center;
+}
+
+p{
+    color: rgb(255, 161, 208);
+}
+
+.meisje{
+    transition: 0.2s;
+}
+
+
+button{
+    color: rgb(240, 167, 240);
+    background-color: white;
+    border-radius: 1em;
+    border: none;
+    margin-bottom: 0.5em;
+    width: 20em;
+    padding: 1em;
+}
+
+button:first-of-type{
+    margin-top: 1em;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(240, 167, 240);
+    transition: 0.5s;
+}
+
+.liefPraatje{
+    position: absolute;
+    top: 10em;
+    left: 26em;
+    font-size: 1em;
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+.mobielPraatje{
+    position: absolute;
+    top: 7.5em;
+    left: 26em;
+    font-size: 1em;
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+.mobielPlaatje{
+    position: absolute;
+    width: 10em;
+    right: 32em;
+    top: 9.8em;
+    transform: rotate(-20deg);
+    z-index: 10;
+}
+
